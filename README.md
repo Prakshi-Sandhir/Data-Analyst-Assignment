@@ -120,3 +120,9 @@ One thing that surprised me was that duplicate customers cannot simply be remove
 
 I also found that campaign `9004` already had communication-log records even though its creation status was `approval_awaiting. This showed that the existence of a send record does not necessarily mean that the campaign is eligible for reporting.
 
+---
+
+## 4. Tools Used
+
+I used **Python with SQLite (`sqlite3`)** to connect to and run SQL queries against the provided `comm_log.db` database.
+
